@@ -1,0 +1,432 @@
+@font-face {
+  font-family: "Ranga";
+  src: url(Ranga-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Ranga-bold";
+  src: url(Ranga-Bold.ttf) format('truetype');
+}
+
+html {
+  font-family: "Ranga", serif;
+  font-size: 18px;
+}
+
+body {
+  background-image:
+  url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/selga.png");
+}
+
+em {
+  font-family: "Ranga-bold", serif;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(2, fit-content(2000px)) / 100%;
+}
+
+h1 {
+  margin-top: 10px;
+  font-family: "Ranga-bold";
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.title span {
+  font-family: "Ranga-bold";
+  font-size: 70px;
+  border-bottom: 2px solid #009AFF;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 0;
+}
+
+.header {
+  align-items: center;
+
+}
+
+.grid p{
+  margin: 10px;
+  white-space: nowrap;
+  justify-self: left;
+  border-bottom: 2px solid #009AFF;
+}
+
+.grid {
+  display: grid;
+  position: absolute;
+  grid-template: fit-content(500px) / repeat(2, fit-content(400px));
+  justify-items: center;
+  align-items: center;
+}
+
+.top {
+  top: 80px;
+}
+
+.bottom {
+  top: 120px;
+}
+
+.gmail img {
+  width: 30px;
+  height: 30px;
+}
+
+.instagram {
+  margin-left: 79%;
+}
+
+.snapchat {
+  margin-left: 75%;
+}
+
+.gm1 {
+  margin-left: 4%;
+}
+
+.gm2 {
+  margin-left: 8%;
+}
+
+.instagram img{
+  width: 38px;
+  height: 38px;
+}
+
+.snapchat img{
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr 1fr;
+  grid-column-gap: 4%;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sections h5 {
+  line-height: 40px;
+  text-align: center;
+  background-color: #009AFF;
+  position: sticky;
+  top: 0px;
+  font-size: 30px;
+}
+
+.professional {
+  display: grid;
+  height: 100%;
+  grid-template: repeat(5, fit-content(600px)) / 1fr;
+  grid-row-gap: 8px;
+}
+
+.activity {
+  border: 2px solid black;
+  background-color: white;
+}
+
+.activity em{
+  margin: 0 5px;
+}
+
+h5 {
+  margin: 10px 0;
+  position: sticky;
+}
+
+ li {
+  margin-right: 5px;
+}
+
+.sections span {
+  color: white;
+}
+
+ul {
+  margin-left: -20px;
+}
+
+.ccg img {
+  margin: 15px auto;
+  display: flex;
+  width: 150px;
+  height: 85px;
+}
+
+.genea img {
+  margin: 15px auto;
+  display: flex;
+  width: 70px;
+  height: 70px;
+}
+
+.sears img {
+  margin-top: 0;
+  margin-bottom: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+.msc img {
+  margin: 15px auto;
+  display: flex;
+  width: 90px;
+  height: 70px;
+}
+
+.lifeguard img {
+  margin: 15px auto;
+  display: flex;
+  width: 70px;
+  height: 90px;
+}
+.athletic {
+  display: grid;
+  height: 63%;
+  grid-template: repeat(4, fit-content(600px)) 1fr / 1fr;
+  grid-row-gap: 8px;
+}
+
+
+.cms img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2px;
+  margin-bottom: -19px;
+  display: flex;
+  width: 120px;
+  height:120px;
+}
+
+.bhs img {
+  margin: 20px auto;
+  display: flex;
+  width: 80px;
+  height: 70px;
+}
+
+.academic {
+  display: grid;
+  height: 52%;
+  grid-template: repeat(3, fit-content(600px)) / 1fr;
+  grid-row-gap: 8px;
+}
+
+.cmc img {
+  margin: 20px auto;
+  display: flex;
+  width: 95px;
+  height: 80px;
+}
+
+.codeacademy img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  display: flex;
+  width: 150px;
+  height: 50px;
+
+}
+
+.codeacademy p {
+  margin-bottom: 0px;
+}
+
+.codeacademy ul {
+  margin-top: 0;
+}
+
+.cmc ul {
+  margin-top: 0;
+}
+
+.cmc p {
+  margin-bottom: 0;
+}
+
+.bellevuehs ul {
+  margin-top: 0;
+}
+
+.bellevuehs p {
+  margin-bottom: 0;
+}
+
+.personal {
+  display: grid;
+  height: 62%;
+  grid-template: repeat(4, fit-content(600px)) 1fr / 1fr;
+  grid-row-gap: 8px;
+}
+
+.images {
+  display: grid;
+  grid-template: 1fr / repeat(2, fit-content(200px));
+  justify-items: center;
+  justify-content: center;
+  grid-column-gap: 20px;
+  margin-top: 20px;
+}
+
+.bellevuehs img {
+    margin: 20px auto;
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+
+.robinhoodbtc img {
+  display: flex;
+  width: 90px;
+  height: 90px;
+}
+
+.fantasy img {
+  margin: 20px auto;
+  display: flex;
+  width: 180px;
+  height: 90px;
+}
+
+.yoga img {
+  margin: 15px auto;
+  display: flex;
+  width: 100px;
+  height: 80px;
+}
+
+.lego img {
+  margin: 15px auto;
+  display: flex;
+  width: 80px;
+  height: 80px;
+}
+
+.robe-lineup {
+  width: 300px;
+  height: 200px;
+  top: 2025px;
+  left: 70%;
+}
+
+.best-wp {
+  width: 327px;
+  height: 150px;
+  top: 1800px;
+  left: 30%;
+  z-index: 5;
+
+}
+
+.best-ccg {
+  width: 300px;
+  height: 200px;
+  top: 1855px;
+  left: 71%;
+}
+
+.graduation {
+  width: 86px;
+  height: 130px;
+  top: 2280px;
+  left: 39%;
+  z-index: 10;
+}
+
+.andrew {
+  width: 225px;
+  height: 150px;
+  top: 2300px;
+  left: 45%;
+
+}
+
+.headshot {
+  width: 300px;
+  height: 300px;
+  top: 1850px;
+  left: 50%;
+  z-index: 20;
+}
+
+.bro {
+  width: 200px;
+  height: 150px;
+  top: 1750px;
+  left: 67%;
+
+}
+
+.llama {
+  width: 266px;
+  height: 200px;
+  top: 2150px;
+  left: 61.5%;
+}
+
+.barcelona {
+  width: 180px;
+  height: 240px;
+  top: 1680px;
+  left: 53%;
+  z-index: 2;
+}
+
+.tahoe-friends {
+  width: 266px;
+  height: 200px;
+  top: 2100px;
+  left: 33%;
+  z-index: 0;
+}
+
+.sake {
+  width: 112px;
+  height: 200px;
+  top: 2125px;
+  left: 53%;
+  z-index: 3;
+}
+
+.marco-cam {
+  width: 300px;
+  height: 200px;
+  top: 1925px;
+  left: 28%;
+}
+
+.senior-pic {
+  width: 132px;
+  height: 200px;
+  top: 2200px;
+  left: 80%;
+  z-index: 21;
+}
+
+.pic {
+  position: absolute;
+}
